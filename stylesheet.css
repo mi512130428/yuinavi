@@ -1,0 +1,266 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: serif;
+    color: #414141;
+    font-size: 0.8em;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    scroll-behavior: smooth;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.section-title {
+    font-size: 2.5em;
+    color: #A31948;
+    margin: 0 0 2em 1em;
+}
+
+.section-title span{
+    display: block;
+    font-size: 0.5em;
+    color: #414141;    
+}
+
+
+
+                                                #hamburger-nav {
+                                                    display: none;
+                                                }
+
+
+#header {
+    background-color: #ffffff5d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+}
+
+#header .container {
+    width: 100%;
+}
+
+#header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3%;
+    margin: 0 auto;
+}
+
+.headerlogo {
+    width: 200px;
+    height: auto;
+}
+
+.header-menu,
+.sns-list {
+    display: flex;
+    gap: 1em;
+}
+
+.sns-list {
+    scale: 1.2;
+}
+
+#main-visual {
+    width: 100%;
+    height: 96vh;
+}
+
+.mainvisual-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.mainvisual-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top 20% left 50%;
+}
+
+.main-visual-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.main-visual-text h1 {
+    font-size: 2.5em;
+    display: inline-block;
+    margin-bottom: 0.1em;
+    padding: 0.2em 0.5em 0.2em 10%;
+    background-color: #FFF;
+}
+
+.main-visual-text p {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 0.2em 0.5em 0.2em 5%;
+    background-color: #FFF;
+}
+
+.popbtn {
+    position: fixed;
+    bottom: 10%;
+    z-index: 900;
+}
+
+.contactpopbtn {
+    left: 5%;
+    text-align: center;
+}
+
+.contactbtn {
+    padding: 1em 4em;
+    font-size: 1.2em;
+    border-radius: 50px;
+    border: #414141 2px solid;
+    background-color: #ffffffbf;
+}
+
+.contactpopbtn-text {
+    font-size: 1.1em;
+}
+
+.linepopbtn {
+    right: 5%;
+}
+
+.linebtn {
+    width: 9vw;
+    height: 9vw;
+    display: block;
+    border-radius: 50%;
+    border: #414141 2px solid;
+    background-color: #ffffffbf;
+}
+
+.linebtn span {
+    height: 9.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+section {
+    width: 100vw;
+    text-align: justify;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10vh 3%;
+}
+
+
+.concept-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.concept-content-img {
+    width: 35%;
+    height: auto;
+}
+
+.concept-content img {
+    width: 100%;
+    height: auto;
+}
+
+.concept-content-text {
+    width: 55%;
+    font-size: 1em;
+    line-height: 2.5;
+}
+
+.concept-content-text h3 {
+    font-size: 1.6em;
+}
+
+
+#reasons {
+    width: 100%;
+    background-color: #FFEFF3;
+}
+
+.reasons-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.reasons {
+    width: 28%;
+    height: fit-content;
+    position: relative;
+}
+
+.reasons::before { 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7vw;
+    height: 7vw;
+    clip-path: polygon(100% 100%, 0 100% ,0 0);
+    rotate: 90deg;
+    background-color: #ffffffbf;
+}
+
+.reasons-list-no {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0.2em;
+    margin-top: -0.2em;
+    font-size: 4em;
+}
+
+.reasons-img {
+    width: 100%;
+    height: 200px;
+}
+
+.reasons-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reasons-text {
+    width: 100%;
+    padding: 1em 0.5em;
+    font-size: 0.9em;
+    line-height: 1.8;
+    color: #414141;
+}
